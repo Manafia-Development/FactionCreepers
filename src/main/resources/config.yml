@@ -44,9 +44,9 @@ Creepers:
     Info:
       Explosion-Power: 7
       Ignite-Blocks: false
-      Break-Blocks: true    
+      Break-Blocks: true
     Nametag:
-      Visible: true  
+      Visible: true
       Format: '&e&lRocket Creeper'
   Sandstorm:
     Item:

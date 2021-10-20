@@ -7,10 +7,10 @@ import java.lang.reflect.Method;
 
 public class NBTList {
 
-    private String listName;
-    private NBTCompound parent;
-    private NBTType type;
-    private Object listObject;
+    private final String listName;
+    private final NBTCompound parent;
+    private final NBTType type;
+    private final Object listObject;
 
     protected NBTList(NBTCompound owner, String name, NBTType type, Object list) {
         parent = owner;

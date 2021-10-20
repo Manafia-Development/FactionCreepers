@@ -2,7 +2,7 @@ name: FactionCreepers
 main: com.github.manafia.factioncreepers.Enable
 version: 1.0
 description: A plugin that enhances creepers
-authors: [ProSavage, 71Zombie, ]
+authors: [ ProSavage, 71Zombie, ]
 commands:
   creeperegg:
     description: Give creeper eggs

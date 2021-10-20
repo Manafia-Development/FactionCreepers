@@ -636,7 +636,7 @@ public class NBTReflectionUtil {
         Method method;
         try {
             method = workingtag.getClass().getMethod("setFloat", String.class, float.class);
-            method.invoke(workingtag, key, (float) f);
+            method.invoke(workingtag, key, f);
             comp.setCompound(rootnbttag);
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -674,7 +674,7 @@ public class NBTReflectionUtil {
         Method method;
         try {
             method = workingtag.getClass().getMethod("setLong", String.class, long.class);
-            method.invoke(workingtag, key, (long) f);
+            method.invoke(workingtag, key, f);
             comp.setCompound(rootnbttag);
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -712,7 +712,7 @@ public class NBTReflectionUtil {
         Method method;
         try {
             method = workingtag.getClass().getMethod("setShort", String.class, short.class);
-            method.invoke(workingtag, key, (short) f);
+            method.invoke(workingtag, key, f);
             comp.setCompound(rootnbttag);
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -750,7 +750,7 @@ public class NBTReflectionUtil {
         Method method;
         try {
             method = workingtag.getClass().getMethod("setByte", String.class, byte.class);
-            method.invoke(workingtag, key, (byte) f);
+            method.invoke(workingtag, key, f);
             comp.setCompound(rootnbttag);
         } catch (Exception ex) {
             ex.printStackTrace();

@@ -1,0 +1,90 @@
+#FactionCreepers
+#Original Author - (c) ProSavage 2018
+
+
+ThrowableCreeperEggs:
+  Normal: true
+  Rocket: true
+  Dynamite: true
+  Sandstorm: true
+  Sticky: true
+
+
+
+Creepers:
+  Dynamite:
+    Item:
+      Name: '&c&lDynamite Creeper Egg'
+      Lore:
+        - '&cA High Powered Creeper'
+        - ''
+        - '&7Create an explosion much'
+        - '&7larger than a normal creeper'
+        - ''
+        - '&7&o(( Place to Use ))'
+    Info:
+      # You want to keep this number higher than 7 or
+      # the resulting explosion is not much larger than normal.
+      Explosion-Power: 9
+      Ignite-Blocks: true
+      Break-Blocks: true
+    Nametag:
+      Visible: true
+      Format: '&c&lDynamite Creeper'
+  Rocket:
+    Item:
+      Name: '&e&lRocket Creeper Egg'
+      Lore:
+        - '&cA High Flying Creeper'
+        - ''
+        - '&7Goes straight up and '
+        - '&7blows up 10 seconds later.'
+        - ''
+        - '&7&o(( Place to Use ))'
+    Info:
+      Explosion-Power: 7
+      Ignite-Blocks: false
+      Break-Blocks: true    
+    Nametag:
+      Visible: true  
+      Format: '&e&lRocket Creeper'
+  Sandstorm:
+    Item:
+      Name: '&e&lSandstorm Creeper Egg'
+      Lore:
+        - '&cThrows Sand Everywhere'
+        - ''
+        - '&7Scatters Sand in all '
+        - '&7directions.'
+        - ''
+        - '&7&o(( Place to Use ))'
+    Info:
+      Explosion-Power: 17
+      Ignite-Blocks: false
+      Break-Blocks: false
+      Sand-Amount: 20
+    Nametag:
+      Visible: true
+      Format: '&e&lSandstorm Creeper'
+  Sticky:
+    Item:
+      Name: '&a&lSticky Creeper Egg'
+      Lore:
+        - '&cSticks to the position'
+        - '&cit is spawned at!'
+        - ''
+        - '&7Will automatically '
+        - '&7explode in 10 seconds!'
+        - ''
+        - '&7&o(( Place to Use ))'
+    Info:
+      Explosion-Power: 5
+      Ignite-Blocks: false
+      Break-Blocks: true
+    Nametag:
+      Visible: true
+      Format: '&a&lSticky Creeper'
+    
+
+
+      
